@@ -14,6 +14,8 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Adaptive icon background layer color -->
+    <color name="ic_contacts_launcher_background">#2458CA</color>
     <color name="ic_add_contact_shortcut_background">#F5F5F5</color>
 
     <!-- 87% black -->
@@ -205,7 +207,7 @@
     <color name="search_shortcut_icon_color">@color/dialtacts_theme_color</color>
 
     <!-- Color of the background of the contact detail and editor pages -->
-    <color name="background_primary">#f9f9f9</color>
+    <color name="background_primary">@android:color/white</color>
     <color name="contact_all_list_background_color">#FFFFFF</color>
 
     <!-- Text color used for character counter when the max limit has been exceeded -->
