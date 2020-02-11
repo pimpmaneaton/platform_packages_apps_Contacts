@@ -76,11 +76,11 @@ public class ContactsUnavailableFragment extends Fragment implements OnClickList
         mAddAccountButton = (Button) mView.findViewById(R.id.add_account_button);
         mAddAccountButton.setOnClickListener(this);
         mAddAccountButton.getBackground().setColorFilter(ContextCompat.getColor(getContext(), R
-                .color.primary_color), PorterDuff.Mode.SRC_ATOP);
+                .color.accent_device_default_light), PorterDuff.Mode.SRC_ATOP);
         mImportContactsButton = (Button) mView.findViewById(R.id.import_contacts_button);
         mImportContactsButton.setOnClickListener(this);
         mImportContactsButton.getBackground().setColorFilter(ContextCompat.getColor(getContext(),
-                R.color.primary_color), PorterDuff.Mode.SRC_ATOP);
+                R.color.accent_device_default_light), PorterDuff.Mode.SRC_ATOP);
         mProgress = (ProgressBar) mView.findViewById(R.id.progress);
 
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {

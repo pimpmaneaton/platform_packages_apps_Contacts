@@ -71,9 +71,9 @@
         <item name="list_item_presence_icon_size">16dip</item>
         <item name="list_item_photo_size">@dimen/contact_browser_list_item_photo_size</item>
         <item name="list_item_profile_photo_size">70dip</item>
-        <item name="list_item_prefix_highlight_color">@color/people_app_theme_color</item>
+        <item name="list_item_prefix_highlight_color">@color/accent_device_default_light</item>
         <item name="list_item_background_color">@color/list_item_pinned_header_color</item>
-        <item name="list_item_header_text_color">@color/people_app_theme_color</item>
+        <item name="list_item_header_text_color">@color/accent_device_default_light</item>
         <item name="list_item_header_text_size">14sp</item>
         <item name="list_item_header_height">30dip</item>
         <item name="list_item_header_text_indent">8dip</item>
@@ -148,9 +148,9 @@
         <item name="list_item_presence_icon_size">16dip</item>
         <item name="list_item_photo_size">@dimen/contact_browser_list_item_photo_size</item>
         <item name="list_item_profile_photo_size">70dip</item>
-        <item name="list_item_prefix_highlight_color">@color/people_app_theme_color</item>
+        <item name="list_item_prefix_highlight_color">@color/accent_device_default_light</item>
         <item name="list_item_background_color">@color/list_item_pinned_header_color</item>
-        <item name="list_item_header_text_color">@color/people_app_theme_color</item>
+        <item name="list_item_header_text_color">@color/accent_device_default_light</item>
         <item name="list_item_header_text_size">14sp</item>
         <item name="list_item_header_height">30dip</item>
         <item name="list_item_header_text_indent">8dip</item>
@@ -197,9 +197,9 @@
     <!-- Use the non-light style so that the up button & icons aren't black. If we use the
          Light style, then it is impossible to tint the homeAsUp icon anything other than black -->
     <style name="ContactsActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
-        <item name="android:background">@color/actionbar_background_color</item>
+        <item name="android:background">@color/accent_device_default_light</item>
         <item name="android:titleTextStyle">@style/ContactsActionBarTitleText</item>
-        <item name="android:backgroundStacked">@color/actionbar_background_color</item>
+        <item name="android:backgroundStacked">@color/accent_device_default_light</item>
         <!-- Empty icon -->
         <item name="android:icon">@android:color/transparent</item>
     </style>
@@ -207,12 +207,12 @@
     <style name="ContactsActionBarStyleAppCompat"
         parent="@style/Widget.AppCompat.ActionBar.Solid">
         <!-- Styles that require AppCompat compatibility, remember to update both sets -->
-        <item name="android:background">@color/actionbar_background_color</item>
-        <item name="background">@color/actionbar_background_color</item>
+        <item name="android:background">@color/accent_device_default_light</item>
+        <item name="background">@color/accent_device_default_light</item>
         <item name="android:titleTextStyle">@style/ContactsActionBarTitleTextAppCompat</item>
         <item name="titleTextStyle">@style/ContactsActionBarTitleTextAppCompat</item>
-        <item name="android:backgroundStacked">@color/actionbar_background_color</item>
-        <item name="backgroundStacked">@color/actionbar_background_color</item>
+        <item name="android:backgroundStacked">@color/accent_device_default_light</item>
+        <item name="backgroundStacked">@color/accent_device_default_light</item>
         <!-- Empty icon -->
         <item name="android:icon">@android:color/transparent</item>
         <item name="icon">@android:color/transparent</item>
@@ -242,8 +242,8 @@
     </style>
 
     <style name="LightToolbarStyle" parent="@style/Widget.AppCompat.Toolbar">
-        <item name="android:background">@color/contextual_selection_bar_color</item>
-        <item name="background">@color/contextual_selection_bar_color</item>
+        <item name="android:background">@color/accent_device_default_light</item>
+        <item name="background">@color/accent_device_default_light</item>
         <item name="android:titleTextAppearance">@style/ContactsActionBarTitleTextBlack</item>
         <item name="titleTextAppearance">@style/ContactsActionBarTitleTextBlack</item>
     </style>
@@ -532,7 +532,7 @@ background and text color. See also android:style/Widget.Holo.TextView.ListSepar
         <!-- This is necessary because the window is partially transparent during the enter
              and exit animations -->
         <item name="android:windowIsTranslucent">true</item>
-        <item name="android:statusBarColor">@color/contextual_selection_bar_status_bar_color</item>
+        <item name="android:statusBarColor">@color/accent_device_default_light</item>
     </style>
 
     <!-- Style for item in navigation drawer -->
