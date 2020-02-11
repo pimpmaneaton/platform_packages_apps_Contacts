@@ -23,6 +23,6 @@
         android:bottomLeftRadius="8dp"
         android:bottomRightRadius="8dp"/>
     <size android:height="48dp" android:width="8dp"/>
-    <solid android:color="@color/primary_color" />
+    <solid android:color="@color/accent_device_default_light" />
 
 </shape>

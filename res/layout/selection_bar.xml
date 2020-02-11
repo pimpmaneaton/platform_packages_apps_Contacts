@@ -18,7 +18,7 @@
     android:id="@+id/selection_bar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/contextual_selection_bar_color">
+    android:background="@color/accent_device_default_light">
 
     <ImageButton
         android:id="@+id/selection_close"
@@ -51,7 +51,7 @@
         android:paddingEnd="16dp"
         android:paddingStart="16dp"
         android:text="@string/menu_add_contacts"
-        android:textColor="@color/primary_color"
+        android:textColor="@color/accent_device_default_light"
         android:textStyle="bold"
         android:visibility="gone"/>
 

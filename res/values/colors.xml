@@ -14,6 +14,8 @@
      limitations under the License.
 -->
 <resources>
+
+    <color name="accent_device_default_light">@*android:color/accent_device_default_light</color>
     <color name="ic_add_contact_shortcut_background">#F5F5F5</color>
 
     <!-- 87% black -->
@@ -28,28 +30,28 @@
     <color name="quickcontact_entry_sub_header_text_color">#737373</color>
     <color name="quickcontact_entry_header_text_color">#202020</color>
 
-    <color name="action_bar_background">#2a56c6</color>
+    <color name="action_bar_background">@color/accent_device_default_light</color>
 
     <color name="nav_item_selected_background">#0f000000</color>
 
     <color name="action_bar_button_text_color">#FFFFFF</color>
 
-    <color name="actionbar_background_color">@color/primary_color</color>
+    <color name="actionbar_background_color">@color/accent_device_default_light</color>
 
-    <color name="contextual_selection_bar_color">#f6f6f6</color>
+    <color name="contextual_selection_bar_color">@color/accent_device_default_light</color>
     <!-- Color of the status bar above the contextual selection bar. -->
-    <color name="contextual_selection_bar_status_bar_color">#bababa</color>
+    <color name="contextual_selection_bar_status_bar_color">@color/accent_device_default_light</color>
 
-    <color name="primary_color_dark">#1c3aa9</color>
-    <color name="primary_color">#2a56c6</color>
+    <color name="primary_color_dark">@color/accent_device_default_light</color>
+    <color name="primary_color">@color/accent_device_default_light</color>
 
-    <color name="group_primary_color_dark">#546E7A</color>
-    <color name="group_primary_color">#607D8B</color>
+    <color name="group_primary_color_dark">@color/accent_device_default_light</color>
+    <color name="group_primary_color">@color/accent_device_default_light</color>
 
     <!-- Color of the selected tab underline -->
     <color name="contacts_accent_color">#FFFFFF</color>
 
-    <color name="floating_action_button_icon_color">@color/contacts_accent_color</color>
+    <color name="floating_action_button_icon_color">@color/accent_device_default_light</color>
 
     <!-- Horizontal separator line should be 12% dark in the light theme. -->
     <color name="divider_line_color_light">#e0e0e0</color>
@@ -85,7 +87,7 @@
     <color name="empty_state_background">#efefef</color>
 
     <!-- Colors of swipeRefreshLayout's spinning circle. -->
-    <color name="swipe_refresh_color1">#0f9d58</color>
+    <color name="swipe_refresh_color1">@color/accent_device_default_light</color>
     <color name="swipe_refresh_color2">#dd4b37</color>
     <color name="swipe_refresh_color3">#4285f4</color>
     <color name="swipe_refresh_color4">#f4b400</color>
@@ -102,10 +104,10 @@
     <color name="section_header_text_color">@color/dialtacts_theme_color</color>
 
     <!-- Color of the theme of the People app -->
-    <color name="people_app_theme_color">#363636</color>
+    <color name="people_app_theme_color">@color/accent_device_default_light</color>
 
     <!-- Color of the theme of the Dialer app -->
-    <color name="dialtacts_theme_color">#2a56c6</color>
+    <color name="dialtacts_theme_color">@color/accent_device_default_light</color>
 
     <!-- Color of image view placeholder. -->
     <color name="image_placeholder">#DDDDDD</color>
@@ -180,7 +182,7 @@
     <color name="actionbar_icon_color">#ffffff</color>
 
     <!-- Color of the title to the Frequently Contacted section -->
-    <color name="frequently_contacted_title_color">@color/actionbar_background_color</color>
+    <color name="frequently_contacted_title_color">@*android:color/accent_device_default_light</color>
 
     <!-- Color of action bar text. Ensure this stays in sync with packages/Telephony
     phone_settings_actionbar_text_color-->
@@ -199,7 +201,7 @@
 
     <color name="searchbox_hint_text_color">#66000000</color>
 
-    <color name="search_shortcut_icon_color">@color/dialtacts_theme_color</color>
+    <color name="search_shortcut_icon_color">@*android:color/accent_device_default_light</color>
 
     <!-- Color of the background of the contact detail and editor pages -->
     <color name="background_primary">#f9f9f9</color>
